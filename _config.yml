@@ -1,0 +1,20 @@
+title: Michel Neeser
+
+collections:
+  sections:
+    output: true
+    permalink: /:name
+    order:
+      - romane.md
+      - sachbuecher.md
+      - bitcoin.md
+      - effekte-gesetze.md
+      - nostalgische-websites.md
+      - tipps-tricks.md
+      - about.md
+
+defaults:
+  - scope:
+      type: "sections"
+    values:
+      layout: "section"
