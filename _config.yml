@@ -3,7 +3,7 @@ title: Michel Neeser
 collections:
   sections:
     output: true
-    permalink: /:name
+    permalink: /:name/
     order:
       - romane.md
       - sachbuecher.md
