@@ -6,7 +6,7 @@ collections:
     permalink: /:name/
     order:
       - romane.md
-      - sachbuecher.md
+      - sachbuecher-bios.md
       - bitcoin.md
       - effekte-gesetze.md
       - nostalgische-websites.md
