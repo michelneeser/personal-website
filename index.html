@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for section in site.sections %}
-  <section {% if section.title == "Blog" %} class="blog" {% endif %}>
+  <section>
     <div class="section-header">
       <h1><a href="{{ section.url }}">{{ section.title }}</a></h1>
       <div class="icon">{{ section.icon }}</div>
@@ -12,6 +12,6 @@ layout: default
   </section>
 
   {% if section.title == "Blog" %}
-    <img class="title" src="/assets/images/title.png" alt="Titelbild" />
+    <img class="title" src="/assets/images/title.png" alt="Strasse in den USA" />
   {% endif %}
 {% endfor %}
