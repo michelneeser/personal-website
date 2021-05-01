@@ -1,10 +1,12 @@
 title: Michel Neeser
+url: https://www.michelneeser.ch
 
 collections:
   sections:
     output: true
     permalink: /:name/
     order:
+      - blog.html
       - romane.md
       - sachbuecher-bios.md
       - bitcoin.md
@@ -12,9 +14,18 @@ collections:
       - nostalgische-websites.md
       - tipps-tricks.md
       - about.md
+  posts:
+    permalink: /:title/
 
 defaults:
   - scope:
       type: "sections"
     values:
       layout: "section"
+  - scope:
+      type: "posts"
+    values:
+      layout: "post"
+
+plugins:
+  - jekyll-target-blank
