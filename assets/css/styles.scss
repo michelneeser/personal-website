@@ -14,28 +14,8 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 
-  a {
-    &:link, &:visited {
-      color: black;
-    }
-
-    &.back {
-      display: block;
-      margin-top: 30px;
-      text-align: center;
-    }
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin-top: 15px;
-
-    &.title {
-      margin-top: 40px;
-      border: 1px solid #888888;
-    }
+  a:link, a:visited {
+    color: black;
   }
 }
 
@@ -55,6 +35,20 @@ header {
   }
 }
 
+main {
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+
+    &.title {
+      margin-top: 40px;
+      border: 1px solid #888888;
+    }
+  }
+}
+
 section {
   position: relative;
   padding: 15px;
@@ -62,7 +56,7 @@ section {
   border-radius: 10px;
   margin-top: 40px;
 
-  .section-header, .post-header {
+  .title {
     border-bottom: 1px solid #888888;
     padding-bottom: 20px;
 
@@ -80,18 +74,12 @@ section {
       font-size: 2rem;
     }
 
-    .date {
-      @extend .icon;
-      padding: 25px 15px 0px 0px;
-      font-size: 1rem;
-    }
-
     a:link {
       text-decoration: none;
     }
   }
 
-  .section-content, .post-content {
+  .content {
     margin-top: 30px;
     line-height: 1.5em;
 
@@ -114,5 +102,21 @@ section {
     a:hover {
       background-color: $primary-color;
     }
+  }
+}
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 25px;
+
+  .back {
+    flex: 50%;
+    text-decoration: none;
+  }
+
+  .date {
+    flex: 50%;
+    text-align: right;
   }
 }

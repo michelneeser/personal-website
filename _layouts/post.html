@@ -12,14 +12,18 @@
       </header>
       <main>
         <section>
-          <div class="post-header">
+          <div class="title">
             <h1>{{ page.title }}</h1>
-            <div class="date">{{ page.date | date: "%d.%m.%Y" }}</div>
           </div>
-          <div class="post-content">{{ page.content }}</div>
+          <div class="content">
+            {{ page.content }}
+          </div>
         </section>
-        <a href="/blog" class="back"><< alle Posts</a>
       </main>
+      <footer>
+        <a href="/blog" class="back">&larr; alle Posts</a>
+        <div class="date">{{ page.date | date: "%d.%m.%Y" }}</div>
+      </footer>
     </div>
   </body>
 </html>
