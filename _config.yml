@@ -6,7 +6,7 @@ collections:
     output: true
     permalink: /:name/
     order:
-      - blog.html
+      - blog.md
       - romane.md
       - sachbuecher-bios.md
       - bitcoin.md

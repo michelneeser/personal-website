@@ -9,6 +9,6 @@ title: Recap der Atlassian Team '21
 
 Insbesondere die Ankündigung von [Jira Work Management](https://www.atlassian.com/software/jira/work-management) als Nachfolger von Jira Core ist spannend und ich freue mich darauf zu sehen, wie sich Jira ausserhalb der Software-Entwicklung weiter etablieren wird.
 
-Zudem scheint das Programm [Point A](https://www.atlassian.com/point-a), in welchem Atlassian gemeinsam mit Kunden Produkte entwickelt, erste Früchte zu tragen. Neben Jira Work Management wurden nämlich [Team Central](https://www.atlassian.com/software/team-central), Jira Product Discovery und Compass vorgestellt, die sich allerdings noch in Alpha- und Beta-Phasen befinden.
+Zudem scheint das Programm [Point A](https://www.atlassian.com/point-a), in welchem Atlassian gemeinsam mit Kunden Produkte entwickelt, erste Früchte zu tragen. Neben Jira Work Management wurden nämlich [Team Central](https://www.atlassian.com/software/team-central), Jira Product Discovery und Compass vorgestellt, die sich derzeit in Alpha- und Beta-Phasen befinden.
 
 ![Ausschnitt aus den Keynotes der Atlassian Team 2021](/assets/images/blog/atlassian-team-21.png)
