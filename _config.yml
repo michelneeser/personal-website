@@ -13,6 +13,7 @@ collections:
       - effekte-gesetze.md
       - nostalgische-websites.md
       - tipps-tricks.md
+      - scrum.md
       - about.md
   posts:
     permalink: /:title/
