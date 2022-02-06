@@ -1,6 +1,6 @@
 ---
 title: Scrum
-icon: 🔄
+icon: 🏈
 ---
 
 Dieser Bereich ist gerade im Aufbau. 👾
