@@ -45,6 +45,10 @@ main {
     &.title {
       margin-top: 40px;
       border: 1px solid #888888;
+
+      &:hover {
+        filter: sepia(50%);
+      }
     }
   }
 }
@@ -85,7 +89,8 @@ section {
 
     h2 {
       font-weight: 200;
-      font-size: 1.1rem;
+      font-size: 1.3rem;
+      margin-top: 35px;
       margin-bottom: 20px;
     }
 

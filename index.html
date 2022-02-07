@@ -3,18 +3,22 @@ layout: default
 ---
 
 {% for section in site.sections %}
-  <section>
-    <div class="title">
-      <h1><a href="{{ section.url }}">{{ section.title }}</a></h1>
-      <div class="icon">{{ section.icon }}</div>
-    </div>
-    <div class="content">
-      {{ section.content }}
-    </div>
-  </section>
+  {% if section.title != "Galerie" %}
+    <section>
+      <div class="title">
+        <h1><a href="{{ section.url }}">{{ section.title }}</a></h1>
+        <div class="icon">{{ section.icon }}</div>
+      </div>
+      <div class="content">
+        {{ section.content }}
+      </div>
+    </section>
+  {% endif %}
 
   {% if section.title == "Blog" %}
-    <img class="title" src="/assets/images/spacer.png" alt="Strasse in den USA" />
+    <a href="/galerie">
+      <img class="title" src="/assets/images/spacer.png" alt="Strasse in den USA" />
+    </a>
   {% endif %}
 {% endfor %}
 
