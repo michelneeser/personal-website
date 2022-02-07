@@ -16,7 +16,7 @@ collections:
       - scrum.md
       - about.md
   posts:
-    permalink: /:title/
+    permalink: /blog/:title/
 
 defaults:
   - scope:
