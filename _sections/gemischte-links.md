@@ -1,5 +1,5 @@
 ---
-title: Gemischte Linksammlung
+title: Gemischte Links
 icon: 🔀
 ---
 

@@ -7,7 +7,7 @@ collections:
     permalink: /:name/
     order:
       - blog.md
-      - gemischte-linksammlung.md
+      - gemischte-links.md
       - agile-scrum.md
       - romane.md
       - sachbuecher-bios.md

@@ -9,6 +9,7 @@ $tertiary-color: #888888;
 
 body {
   font-family: $font-family;
+  min-width: 400px;
 }
 
 #container {
@@ -29,14 +30,14 @@ header {
   background-color: $primary-color;
   margin-bottom: 50px;
 
-  a:link, a:visited {
+  a {
     color: white;
     text-decoration: none;
   }
 }
 
 main {
-  a:link, a:visited {
+  a {
     color: black;
   }
 
@@ -81,7 +82,7 @@ section {
       font-size: 2rem;
     }
 
-    a:link {
+    a {
       text-decoration: none;
     }
   }
@@ -139,6 +140,7 @@ footer {
     }
 
     .back {
+      color: black;
       text-decoration: none;
     }
   }
@@ -149,6 +151,7 @@ footer {
 
     .back {
       flex: 50%;
+      color: black;
       text-decoration: none;
     }
 
