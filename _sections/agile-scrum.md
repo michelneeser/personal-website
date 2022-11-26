@@ -1,5 +1,5 @@
 ---
-title: Scrum
+title: Agile und Scrum
 icon: 🏈
 ---
 

@@ -7,13 +7,14 @@ collections:
     permalink: /:name/
     order:
       - blog.md
-      - scrum.md
+      - gemischte-linksammlung.md
+      - agile-scrum.md
       - romane.md
       - sachbuecher-bios.md
-      - bitcoin.md
       - effekte-gesetze.md
-      - nostalgische-websites.md
       - tipps-tricks.md
+      - nostalgische-websites.md
+      - crypto-bitcoin.md
       - about.md
   posts:
     permalink: /blog/:title/
